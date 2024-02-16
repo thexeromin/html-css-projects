@@ -1,0 +1,108 @@
+.contact_form_container {
+  background-color: hsl(238, 22%, 44%);
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  margin-top: 2rem;
+}
+
+.split {
+  width: 100%;
+  display: flex;
+}
+
+.split .col {
+  flex: 1;
+}
+
+.split .col h1 {
+  line-height: 3rem;
+  font-size: 2rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  width: 75%;
+}
+
+.split .col p {
+  width: 70%;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  color: hsl(0, 0%, 100%);
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+#contact_form_control {
+  margin-left: auto;
+  width: 70%;
+  margin-top: 0.7rem;
+}
+
+#contact_form_control input {
+  width: 100%;
+  border: 0;
+  border-radius: 2px;
+  padding: 0.8rem;
+  font-size: 12px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+#contact_form_btn {
+  margin-top: 1rem;
+  margin-left: 30%;
+  padding: 0.8rem;
+  font-size: 14px;
+  border: 0;
+  border-radius: 2px;
+  width: 30%;
+  background-color: hsl(224, 93%, 58%);
+  color: hsl(240, 75%, 98%);
+  transition: 0.4s all;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+#contact_form_btn:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (max-width: 991.98px) {
+	.container {
+		max-width: 960px;
+	}
+
+  #contact_form_btn {
+    width: 70%;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (max-width: 575.98px) {
+	.split {
+    flex-direction: column;
+  }
+
+  .split .col h1 {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .split .col p {
+    width: 100%;
+    text-align: center;
+    
+  }
+
+  #contact_form_control {
+    width: 100%;
+  }
+
+  #contact_form_btn {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

@@ -1,0 +1,257 @@
+.testimonial_main_container {
+	background-image: url(../images/bg-curve-desktop.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: top center;
+	padding: 0;
+	margin-top: 4rem;
+	padding-top: 6.5rem;
+}
+
+/* Hero Section */
+.testimonial_container {
+	padding: 0 1rem;
+	padding: 4rem;
+	display: flex;
+	background-color: hsl(240, 75%, 98%);
+}
+
+.testimonial_col {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.testimonial_col h1 {
+	width: 80%;
+	line-height: 3rem;
+	font-size: 2rem;
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+	color: hsl(243, 87%, 12%);
+}
+
+.testimonial_col p {
+	width: 70%;
+	font-size: 14px;
+	font-family: "Open Sans", sans-serif;
+	color: hsl(243, 87%, 12%);
+	font-weight: 400;
+	margin-top: 1rem;
+}
+
+.testimonial_col .howTo_btn {
+  width: 170px;
+	margin-top: 1rem;
+  border-bottom: 1px solid hsl(170, 45%, 43%);
+  color: hsl(170, 45%, 43%);
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+	font-weight: 400;
+  font-size: 14px;
+	cursor: pointer;
+}
+
+.testimonial_col .howTo_btn:hover {
+	border-bottom: 1px solid hsla(170, 45%, 43%, 0.781);
+  color: hsla(170, 45%, 43%, 0.781);
+}
+
+.testimonial_col .howTo_btn img {
+  width: 20px;
+  margin: 0;
+  display: inline-block;
+  margin-left: 0.7rem;
+}
+
+.testimonial_col img {
+	width: 80%;
+	display: block;
+	margin-left: auto;
+}
+
+.user_review_container {
+  width: 50%;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 1px 1px 10px 1px hsl(0, 0%, 75%);
+  padding: 1.5rem;
+  border-radius: 2px;
+}
+
+.user_review_container img {
+  width: 15px;
+  margin: 0;
+  display: inline-block;
+}
+
+.user_review_container p {
+  width: 100%;
+  font-family: "Raleway", sans-serif;
+	font-weight: 700;
+  font-size: 13px;
+}
+
+.profile_image_container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.profile_image_container img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.profile_image_container .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 0.5rem;
+}
+
+.profile_image_container .info h6 {
+  font-family: "Raleway", sans-serif;
+	font-weight: 700;
+}
+
+.profile_image_container .info p {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+	font-weight: 400;
+  font-size: 9px;
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media only screen and (max-width: 1399.98px) {
+	.container {
+		max-width: 100%;
+	}
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (max-width: 991.98px) {
+	.container {
+		max-width: 1140px;
+	}
+
+	.testimonial_container {
+		margin-top: -3rem;
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	.testimonial_col h1 {
+		width: 90%;
+	}
+
+	.testimonial_col p {
+		width: 80%;
+	}
+
+	.user_review_container {
+    width: 100%;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (max-width: 575.98px) {
+	.container {
+		max-width: 540px;
+	}
+
+	.testimonial_main_container {
+		background-image: url(../images/bg-curve-mobile.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: top center;
+		padding: 0;
+		margin-top: 4rem;
+		padding-top: 6.5rem;
+	}
+
+	.testimonial_container {
+		margin-top: -4rem;
+		padding: 1rem;
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	.testimonial_col img {
+		width: 100%;
+		display: block;
+		margin: 0;
+	}
+
+	.testimonial_col h1 {
+		width: 100%;
+		text-align: center;
+	}
+
+	.testimonial_col p {
+		width: 100%;
+		text-align: center;
+	}
+
+	.testimonial_col .howTo_btn {
+		margin: auto;
+		margin-top: 1rem;
+		
+	}
+
+	.user_review_container {
+		margin-top: 2rem;
+		margin-bottom: 1rem;
+		background-color: hsl(0, 0%, 100%);
+		box-shadow: 1px 1px 10px 1px hsl(0, 0%, 75%);
+		padding: 1.5rem;
+		border-radius: 2px;
+	}
+	
+	.user_review_container img {
+		width: 15px;
+		margin: 0;
+		display: inline-block;
+	}
+	
+	.user_review_container p {
+		width: 100%;
+		font-family: "Raleway", sans-serif;
+		font-weight: 700;
+		text-align: justify;
+		font-size: 13px;
+	}
+
+	.profile_image_container img {
+		width: 35px;
+		height: 35px;
+		border-radius: 50%;
+	}
+	
+	.profile_image_container .info {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-left: 0.5rem;
+	}
+	
+	.profile_image_container .info h6 {
+		font-family: "Raleway", sans-serif;
+		font-weight: 700;
+	}
+	
+	.profile_image_container .info p {
+		margin: 0;
+		font-family: "Raleway", sans-serif;
+		font-weight: 400;
+		font-size: 9px;
+	}
+}

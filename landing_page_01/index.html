@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Fraunces:wght@700;900&display=swap" rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/header.css">
+  <link rel="stylesheet" type="text/css" href="css/info.css">
+  <link rel="stylesheet" type="text/css" href="css/testimonial.css">
+  <link rel="stylesheet" type="text/css" href="css/gallery.css">
+  <link rel="stylesheet" type="text/css" href="css/footer.css">
+</head>
+<body>
+
+  <header id="header__section">
+    <nav id="navbar__container">
+      <img src="./images/logo.svg" id="brand__logo">
+
+      <ul id="navbar">
+        <li>About</li>
+        <li>Services</li>
+        <li>Projects</li>
+        <li>Contact</li>
+      </ul>
+
+      <img src="./images/icon-hamburger.svg" id="menu__btn">
+    </nav>
+
+      <div id="shape"></div>
+    <nav id="mobile__navbar__container">
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Projects</a>
+      <a href="#">Contact</a>
+    </nav>
+
+    <h1 id="hero__text">We are creatives</h1>
+
+    <img src="./images/icon-arrow-down.svg" id="arrow">
+  </header>
+
+  <section id="info__grid">
+    <div class="box">
+      <div class="box__content__container">
+        <h2>Transform your brand</h2>
+        <p>
+          We are a full-service creative agency specializing in helping brands grow fast. 
+    Engage your clients through compelling visuals that do most of the marketing for you.
+        </p>
+
+        <button>Learn more</button>
+      </div>
+    </div>
+    
+    <div class="box">
+      <img src="./images/desktop/image-transform.jpg">
+    </div>
+    
+    <div class="box">
+      <img src="./images/desktop/image-stand-out.jpg">
+    </div>
+
+    <div class="box">
+      <div class="box__content__container">
+        <h2>Stand out to the right audience</h2>
+        <p>
+          Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
+        </p>
+
+        <button class="two">Learn more</button>
+      </div>
+    </div>
+    
+    <div class="box">
+      <img src="./images/desktop/image-graphic-design.jpg">
+      <div class="box__content__container__two">
+        <h2 class="heading__one">Graphic design</h2>
+        <p class="para__one">
+          Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+        </p>
+      </div>
+    </div>
+    
+    <div class="box">
+      <img src="./images/desktop/image-photography.jpg">
+      <div class="box__content__container__two">
+        <h2 class="heading__two">Photography</h2>
+        <p class="para__two">
+          Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonial__container">
+    <div id="testimonial__container__wraper">
+      <h3>Client testimonials</h3>
+
+      <div id="testimonial__grid">
+        <div class="testimonial__grid__box">
+          <img src="./images/image-emily.jpg" class="author__image">
+
+          <p class="author__testimonial">
+            We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+          </p>
+
+          <h4 class="author__name">Emily R.</h4>
+          <p class="author__occupation">Marketing Director</p>
+        </div>
+
+        <div class="testimonial__grid__box">
+          <img src="./images/image-thomas.jpg" class="author__image">
+
+          <p class="author__testimonial">
+            Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
+          </p>
+
+          <h4 class="author__name">Thomas S.</h4>
+          <p class="author__occupation">Chief Operating Officer</p>
+        </div>
+        
+        <div class="testimonial__grid__box">
+          <img src="./images/image-jennie.jpg" class="author__image">
+
+          <p class="author__testimonial">
+            Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+          </p>
+
+          <h4 class="author__name">Jennie F.</h4>
+          <p class="author__occupation">Business Owner</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <div class="gallery__image"></div>
+    <div class="gallery__image"></div>
+    <div class="gallery__image"></div>
+    <div class="gallery__image"></div>
+  </section>
+  
+  <footer id="footer__container">
+    <img src="./images/logo2.svg" id="brand__logo__footer" alt="brand logo">
+
+    <ul id="footer__nav">
+      <li>About</li>
+      <li>Services</li>
+      <li>Projects</li>
+      <li>Contact</li>
+    </ul>
+
+    <ul id="footer__nav__social__media">
+      <li><i class="fab fa-facebook-square"></i></li>
+      <li><i class="fab fa-instagram"></i></li>
+      <li><i class="fab fa-twitter"></i></li>
+      <li><i class="fab fa-pinterest"></i></li>
+    </ul>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://linktr.ee/webdevabhijit" target="_blank">Abhijit Paul</a>.
+    </div>
+  </footer>
+  
+  
+
+  <script type="text/javascript" src="./script.js" defer></script>
+  <script src="https://kit.fontawesome.com/2b5130bf0a.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+
+  <!-- Google Fonts  -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/review.css">
+  <link rel="stylesheet" href="./css/contact.css">
+  <link rel="stylesheet" href="./css/footer.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header class="container">
+    <!-- Navigation Bar -->
+    <nav class="navbar_container">
+      <div class="navbar_brand">
+        <img src="./images/logo.svg" alt="Logo">
+      </div>
+      <ul class="navbar">
+        <li class="nav_item">
+          <a href="#" class="nav_link">Features</a>
+        </li>
+        <li class="nav_item">
+          <a href="#" class="nav_link">Team</a>
+        </li>
+        <li class="nav_item">
+          <a href="#" class="nav_link">Sign In</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero_container">
+      <div class="hero_col">
+        <h1>All your files in one secure location, accessible anywhere.</h1>
+        <p>
+          Fylo stores your most important files in one secure location. 
+          Access them wherever you need, share and collaborate with friends, 
+          family, and co-workers.
+        </p>
+        <div class="hero_contact_form">
+          <div class="form_control">
+            <input type="email" name="email" id="input_email" placeholder="Enter your email...">
+            <small class="warning_text">This is warning</small>
+          </div>
+          <button>Get Started</button>
+        </div>
+      </div>
+
+      <div class="hero_col">
+        <img src="./images/illustration-1.svg" alt="Hero Illustration">
+      </div>
+    </section>
+  </header>
+
+  <!-- Review Section -->
+  <section class="container testimonial_main_container">
+    <div class="testimonial_container">
+      <div class="testimonial_col">
+        <h1>Stay productive, wherever you are</h1>
+        <p>
+          Never let location be an issue when accessing your files. Fylo has you 
+          covered for all of your file storage needs.
+        </p>
+        <p>
+          Securely share files and folders with friends, family and colleagues for 
+          live collaboration. No email attachments required!
+        </p>
+        <div class="howTo_btn">
+          <span>See how Fylo works</span>
+          <img src="./images/icon-arrow.svg" alt="arriw">
+        </div>
+        <div class="user_review_container">
+          <img src="./images/icon-quotes.svg" width="100" alt="">
+          <p>
+            Fylo has improved our team productivity by an order of magnitude. Since 
+            making the switch our team has become a well-oiled collaboration machine.
+          </p>
+          <div class="profile_image_container">
+            <img src="./images/avatar-testimonial.jpg" alt="Avatar">
+            <div class="info">
+              <h6>Kyle Burton</h6>
+              <p>Founder & CEO, Huddle</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="testimonial_col">
+        <img src="./images/illustration-2.svg" width="400" alt="Review Illustration">
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="container contact_form_container">
+    <div class="split">
+      <div class="col">
+        <h1>Get early access today</h1>
+        <p>
+          It only takes a minute to sign up and our free starter tier is extremely generous. 
+          If you have any questions, our support team would be happy to help you.
+        </p>
+      </div>
+      <div class="col">
+        <div class="contact_form">
+          <div id="contact_form_control">
+            <input type="email" name="email" id="input_email" placeholder="email@example.com">
+            <small class="warning_text">This is warning</small>
+          </div>
+          <button id="contact_form_btn">Get Started For Free</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Container -->
+  <section class="container footer_container">
+    <img src="./images/logo_footer.svg" id="footer_brand_logo" alt="Brand">
+    <div class="footer_split">
+      <div class="footer_col">
+        <div class="footer_contact_container">
+          <img src="./images/icon-phone.svg" alt="Phone">
+          <span>Phone: +1-543-123-4567</span>
+        </div>
+        <div class="footer_contact_container">
+          <img src="./images/icon-email.svg" alt="Email">
+          <span>example@fylo.com</span>
+        </div>
+      </div>
+      <div class="footer_col">
+        <ul class="footer_nav_container">
+          <li class="footer_nav_item">
+            <a href="" class="footer_nav_link">About Us</a>
+          </li>
+          <li class="footer_nav_item">
+            <a href="" class="footer_nav_link">Jobs</a>
+          </li>
+          <li class="footer_nav_item">
+            <a href="" class="footer_nav_link">Press</a>
+          </li>
+          <li class="footer_nav_item">
+            <a href="" class="footer_nav_link">Blog</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer_col">
+        <ul class="footer_nav_container">
+          <li class="footer_nav_item">
+            <a href="" class="footer_nav_link">Contact Us</a>
+          </li>
+          <li class="footer_nav_item">
+            <a href="" class="footer_nav_link">Terms</a>
+          </li>
+          <li class="footer_nav_item">
+            <a href="" class="footer_nav_link">Privacy</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer_col">
+        <div class="social_icon_container">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Abhijit Paul</a>.
+    </p>
+  </footer>
+
+  <!-- Font awesome -->
+  <script src="https://kit.fontawesome.com/2b5130bf0a.js" crossorigin="anonymous"></script>
+</body>
+</html>
